@@ -1,0 +1,33 @@
+@import 'utility'
+
+$base-text-size: 16px
+$base-font-family: sans-serif
+
+html
+  text-size-adjust: 100%
+
+body
+  @include font-smoothing(on)
+  margin: 0
+  font: $base-text-size / 1 $base-font-family
+  color: #454421
+  background-color: #f8ffe6
+
+.app
+  display: flex
+
+  h3
+    font-family: monospace
+
+nav
+  padding: 1em
+
+  ul
+    padding: 0
+    list-style: none
+
+h1
+  margin-left: 0.5em
+
+img
+  margin: 1em auto
